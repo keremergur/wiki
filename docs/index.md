@@ -13,13 +13,18 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: Sass
+      link: /sass/
 
 features:
-  - title: Feature A
+  - title: Languages
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Frameworks
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Tools
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Databases
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
