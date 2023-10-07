@@ -1,0 +1,9 @@
+[
+    {
+        "text": "Sass / Scss",
+        "items": [
+            { "text": "Nesting", "link": "/sass/nesting" },
+            { "text": "Variables", "link": "/sass/variables" }
+        ]
+    }
+]

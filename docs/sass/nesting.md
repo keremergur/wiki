@@ -1,5 +1,9 @@
 
-```scss
+# Nesting
+
+::: code-group
+
+```scss [scss]
 nav {
     ul {
         margin: 0;
@@ -11,6 +15,21 @@ nav {
 	}
 }
 ```
+
+```sass [sass]
+nav 
+    ul 
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      
+    li 
+		display: inline-block; 
+	
+
+```
+
+:::
 
 ```scss
 .button {
