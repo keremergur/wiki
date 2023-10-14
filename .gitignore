@@ -1,20 +1,22 @@
 
 resources/
 
-# logs
-# *.log
-# npm-debug.log*
-# yarn-debug.log*
-# yarn-error.log*
-# firebase-debug.log*
-# firebase-debug.*.log*
+*.DS_Store
 
-# .firebase/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
 
-# pids
-# *.pid
-# *.seed
-# *.pid.lock
+.firebase/
+
+pids
+*.pid
+*.seed
+*.pid.lock
 
 # lib-cov
 
