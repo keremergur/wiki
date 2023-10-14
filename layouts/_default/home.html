@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1>WIKI KE</h1>
+    <div>
+        {{ range .Sections }}
+            <div class="card">
+                <a href="/{{ .Slug }}">{{ .Title }}</a>
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

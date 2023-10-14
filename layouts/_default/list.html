@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+    {{ .Content }}
+    
+    {{ range .Pages }}
+        <article>
+            <h2>{{ .Title }}</h2>
+            {{ .Content | truncate 250 }}
+        </article>
+    {{ end }}
+    
+{{end}}
